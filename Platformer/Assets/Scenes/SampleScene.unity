@@ -3386,7 +3386,7 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 952645088}
-        m_MethodName: OnMovement
+        m_MethodName: OnHorizontalMovement
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3396,8 +3396,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: c19f8d1b-ca13-4798-891e-f10625587bdb
+    m_ActionId: 0b1200a1-65e1-434e-8021-32c7d6acbe84
     m_ActionName: Hero/HorizontalMovement[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 952645088}
+        m_MethodName: OnVerticalMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 9d336db6-526a-41d3-9dd6-f4d79f234e77
+    m_ActionName: Hero/VerticalMovement[/Keyboard/s,/Keyboard/w]
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 952645088}
@@ -3411,7 +3426,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: cb488047-d4c1-4352-a29e-01b057c6959c
+    m_ActionId: 620248e9-0333-41a9-af26-36edbd03ef2c
     m_ActionName: Hero/SaySomething[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 

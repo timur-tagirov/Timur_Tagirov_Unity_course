@@ -16,7 +16,7 @@ public class Hero : MonoBehaviour
         _direction = direction;
     }
 
-    
+
     private void Update()
     {
 
@@ -24,10 +24,19 @@ public class Hero : MonoBehaviour
         {
             var delta = _direction * _speed * Time.deltaTime;
             var newXPosition = transform.position.x + delta;
-            var newYPosition = transform.position.y + delta;
-            transform.position = new Vector3(newXPosition, newYPosition, transform.position.z);
+            transform.position = new Vector3(newXPosition, transform.position.y, transform.position.z);
+            
+
         }
 
+        else if (_direction != 0)
+
+        {
+            var delta = _direction * _speed * Time.deltaTime;
+            var newYPosition = transform.position.y + delta;
+            transform.position = new Vector3(transform.position.x, newYPosition, transform.position.z);
+        }
+       
 
     }
 
@@ -35,4 +44,4 @@ public class Hero : MonoBehaviour
     {
         Debug.Log("Something!");
     }
-}
+} 
