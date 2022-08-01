@@ -2,42 +2,60 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+ 
 public class Hero : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    private float _horizontalDirection;
-    private float _verticalDirection;
+    [SerializeField] private float _jumpSpeed;
+    [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private float _groundCheckRadius;
+    [SerializeField] private Vector3 _groundCheckPositionDelta;
 
-    private void Update()
+    private Rigidbody2D _rigidbody;
+    private Vector2 _direction;
+
+    private void Awake ()
     {
+        _rigidbody = GetComponent<Rigidbody2D>();
+    }
 
-        if (_horizontalDirection != 0)
+    public void SetDirection(Vector2 direction)
+    {
+        _direction = direction;
+    }
+
+    private void FixedUpdate()
+    {
+        _rigidbody.velocity = new Vector2(_direction.x * _speed, _rigidbody.velocity.y);
+
+        var isJumping = _direction.y > 0;
+        if (isJumping)
         {
-            var delta = _horizontalDirection * _speed * Time.deltaTime;
-            var newXPosition = transform.position.x + delta;
-            transform.position = new Vector3(newXPosition, transform.position.y, transform.position.z);
+            if (IsGrounded())
+            {
+                _rigidbody.AddForce(Vector2.up * _jumpSpeed, ForceMode2D.Impulse);
+            }            
+        } else if (_rigidbody.velocity.y > 0)
+        {
+            _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _rigidbody.velocity.y * 0.5f);
         }
-
-       if (_verticalDirection != 0)
-       {
-            var delta = _verticalDirection * _speed * Time.deltaTime;
-            var newYPosition = transform.position.y + delta;
-            transform.position = new Vector3(transform.position.x, newYPosition, transform.position.z);
-       }
     }
 
-    public void SetHorizontalDirection(float horizontalDirection)
+    private bool IsGrounded()
     {
-        _horizontalDirection = horizontalDirection;
+        var hit = Physics2D.CircleCast(transform.position + _groundCheckPositionDelta, _groundCheckRadius, Vector2.down, 0, _groundLayer);
+        return hit.collider != null;
     }
 
-    public void SetVerticalDirection(float verticalDirection)
+    private void OnDrawGizmos()
     {
-        _verticalDirection = verticalDirection;
+        Gizmos.color = IsGrounded() ? Color.green : Color.red;
+        Gizmos.DrawSphere(transform.position + _groundCheckPositionDelta, _groundCheckRadius);
     }
 
     public void SaySomething()
     {
         Debug.Log("Something!");
     }
-} 
+}
+

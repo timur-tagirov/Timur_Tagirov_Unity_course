@@ -3,24 +3,13 @@ using UnityEngine.InputSystem;
 
 public class HeroInputReader : MonoBehaviour
 {
-
     [SerializeField] private Hero _hero;
 
-
-    public void OnHorizontalMovement(InputAction.CallbackContext context)
+    public void OnMovement(InputAction.CallbackContext context)
     {
-        var horizontalDirection = context.ReadValue<float>();
-        _hero.SetHorizontalDirection(horizontalDirection);
-
+        var Movement = context.ReadValue<Vector2>();
+        _hero.SetDirection(Movement);
     }
-
-    public void OnVerticalMovement(InputAction.CallbackContext context)
-    {
-        var verticalDirection = context.ReadValue<float>();
-        _hero.SetVerticalDirection(verticalDirection);
-
-    }
-
 
     public void OnSaySomething(InputAction.CallbackContext context)
     {
@@ -30,5 +19,4 @@ public class HeroInputReader : MonoBehaviour
         }
 
     }
-
 }
