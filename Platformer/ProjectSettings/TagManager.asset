@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tilemap_background
+    uniqueID: 871172745
+    locked: 0
   - name: Layer_1
     uniqueID: 1959323741
     locked: 0
@@ -49,4 +52,13 @@ TagManager:
     locked: 0
   - name: Layer_3
     uniqueID: 3069974223
+    locked: 0
+  - name: Hero
+    uniqueID: 2044108543
+    locked: 0
+  - name: Tilemap_ground
+    uniqueID: 1465527423
+    locked: 0
+  - name: Tilemap_grass
+    uniqueID: 2097083617
     locked: 0
