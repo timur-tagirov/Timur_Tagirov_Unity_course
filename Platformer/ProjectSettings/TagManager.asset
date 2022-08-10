@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Grid
   - 
   - 
   - 
@@ -61,4 +61,7 @@ TagManager:
     locked: 0
   - name: Tilemap_grass
     uniqueID: 2097083617
+    locked: 0
+  - name: Grid
+    uniqueID: 757728625
     locked: 0

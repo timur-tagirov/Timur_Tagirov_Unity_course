@@ -8,11 +8,12 @@ namespace PixelCrew.Components
     public class CollectCoinComponent : MonoBehaviour
     { 
         [SerializeField] private GameObject _objectToScore;
+        [SerializeField] private int _score;
 
         public void ChangeScore()
         {
-            ScoreManagerSilverCoin.coinValue += 1;
-            ScoreManagerGoldenCoin.coinValue -= 10;
+            ScoreManager.coinValue += 1;
+            ScoreManager.scoreValue += _score;
         }
     }
 }
