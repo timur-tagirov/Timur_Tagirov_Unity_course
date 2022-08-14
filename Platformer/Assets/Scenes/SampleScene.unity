@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 46360971}
   - component: {fileID: 46360970}
+  - component: {fileID: 46360972}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_1
   m_TagString: Untagged
@@ -202,6 +203,25 @@ Transform:
   m_Father: {fileID: 517808523}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46360972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46360969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: 8683632313750085214, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 262518517033693272, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 762285979657935423, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1400697303485121525, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &67693466
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +236,7 @@ GameObject:
   - component: {fileID: 67693469}
   - component: {fileID: 67693468}
   - component: {fileID: 67693467}
+  - component: {fileID: 67693473}
   m_Layer: 0
   m_Name: Silver_coin (2)
   m_TagString: Untagged
@@ -369,6 +390,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &67693473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67693466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 8
+  _loop: 1
+  _sprites:
+  - {fileID: -2322180950842035098, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -4893972260818282012, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -6323751108524238166, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 2722280177590742205, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
 --- !u!1 &96181801
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 96181803}
   - component: {fileID: 96181802}
+  - component: {fileID: 96181804}
   m_Layer: 0
   m_Name: WaterReflectSmall_0
   m_TagString: Untagged
@@ -451,6 +492,25 @@ Transform:
   m_Father: {fileID: 468572706}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &96181804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96181801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -1898659343009958212, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -8843944345914528079, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -3808486951342339979, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -5088061633143109107, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
 --- !u!1 &160467202
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +655,7 @@ GameObject:
   - component: {fileID: 174825590}
   - component: {fileID: 174825589}
   - component: {fileID: 174825588}
+  - component: {fileID: 174825594}
   m_Layer: 0
   m_Name: Silver_coin (1)
   m_TagString: Untagged
@@ -748,6 +809,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &174825594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174825587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 8
+  _loop: 1
+  _sprites:
+  - {fileID: -2322180950842035098, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -4893972260818282012, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -6323751108524238166, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 2722280177590742205, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
 --- !u!1 &213236430
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,6 +838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213236432}
   - component: {fileID: 213236431}
+  - component: {fileID: 213236433}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_8
   m_TagString: Untagged
@@ -830,6 +911,25 @@ Transform:
   m_Father: {fileID: 517808523}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213236433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213236430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: -6024505487453159095, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 3531074664856275464, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 802857254159732353, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1278475588773109743, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &264823307
 GameObject:
   m_ObjectHideFlags: 0
@@ -11350,6 +11450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 396330918}
   - component: {fileID: 396330919}
+  - component: {fileID: 396330920}
   m_Layer: 0
   m_Name: WaterReflectLarge_0 (2)
   m_TagString: Untagged
@@ -11422,6 +11523,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &396330920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396330917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -6018279857378552221, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -6505298659582443948, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -7718236803453008505, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -2749089684739404911, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
 --- !u!1 &468572705
 GameObject:
   m_ObjectHideFlags: 0
@@ -11477,6 +11597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479251994}
   - component: {fileID: 479251995}
+  - component: {fileID: 479251996}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_3 (4)
   m_TagString: Untagged
@@ -11549,6 +11670,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &479251996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479251993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: 8683632313750085214, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 262518517033693272, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 762285979657935423, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1400697303485121525, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &517808522
 GameObject:
   m_ObjectHideFlags: 0
@@ -11736,6 +11876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523144288}
   - component: {fileID: 523144287}
+  - component: {fileID: 523144289}
   m_Layer: 0
   m_Name: WaterReflectMedium_0
   m_TagString: Untagged
@@ -11808,6 +11949,25 @@ Transform:
   m_Father: {fileID: 468572706}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &523144289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523144286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -5528557573366522457, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
+  - {fileID: 8506211366736525064, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
+  - {fileID: 759440405009013545, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
+  - {fileID: 3538689430123128980, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
 --- !u!1 &542599311
 GameObject:
   m_ObjectHideFlags: 0
@@ -11864,7 +12024,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573170353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.032, y: -0.328, z: 0}
+  m_LocalPosition: {x: -0.032, y: -0.15, z: 0}
   m_LocalScale: {x: 0.88377273, y: 0.88377273, z: 0.88377273}
   m_Children: []
   m_Father: {fileID: 952645087}
@@ -11993,6 +12153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 695383423}
   - component: {fileID: 695383422}
+  - component: {fileID: 695383424}
   m_Layer: 0
   m_Name: WaterReflectLarge_0
   m_TagString: Untagged
@@ -12065,6 +12226,25 @@ Transform:
   m_Father: {fileID: 468572706}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &695383424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695383421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -6018279857378552221, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -6505298659582443948, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -7718236803453008505, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -2749089684739404911, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
 --- !u!1 &739069044
 GameObject:
   m_ObjectHideFlags: 0
@@ -12160,6 +12340,7 @@ GameObject:
   - component: {fileID: 821482880}
   - component: {fileID: 821482879}
   - component: {fileID: 821482878}
+  - component: {fileID: 821482884}
   m_Layer: 0
   m_Name: Silver_coin (3)
   m_TagString: Untagged
@@ -12313,6 +12494,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &821482884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821482877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 8
+  _loop: 1
+  _sprites:
+  - {fileID: -2322180950842035098, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -4893972260818282012, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -6323751108524238166, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 2722280177590742205, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
 --- !u!1 &883412705
 GameObject:
   m_ObjectHideFlags: 0
@@ -12323,6 +12523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883412706}
   - component: {fileID: 883412707}
+  - component: {fileID: 883412708}
   m_Layer: 0
   m_Name: WaterReflectSmall_0 (2)
   m_TagString: Untagged
@@ -12395,6 +12596,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &883412708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883412705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -1898659343009958212, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -8843944345914528079, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -3808486951342339979, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -5088061633143109107, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
 --- !u!1 &901560489
 GameObject:
   m_ObjectHideFlags: 0
@@ -12405,6 +12625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 901560490}
   - component: {fileID: 901560491}
+  - component: {fileID: 901560492}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_3 (1)
   m_TagString: Untagged
@@ -12477,6 +12698,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &901560492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901560489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: 8683632313750085214, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 262518517033693272, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 762285979657935423, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1400697303485121525, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &937111469
 GameObject:
   m_ObjectHideFlags: 0
@@ -12487,6 +12727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937111470}
   - component: {fileID: 937111471}
+  - component: {fileID: 937111472}
   m_Layer: 0
   m_Name: WaterReflectMedium_0 (1)
   m_TagString: Untagged
@@ -12559,6 +12800,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &937111472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937111469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -5528557573366522457, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
+  - {fileID: 8506211366736525064, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
+  - {fileID: 759440405009013545, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
+  - {fileID: 3538689430123128980, guid: 9cabf1c0c52ee0643ab7cd67aecd6349, type: 3}
 --- !u!1 &952645085
 GameObject:
   m_ObjectHideFlags: 0
@@ -12575,6 +12835,7 @@ GameObject:
   - component: {fileID: 952645092}
   - component: {fileID: 952645091}
   - component: {fileID: 952645093}
+  - component: {fileID: 952645094}
   m_Layer: 0
   m_Name: Hero_0
   m_TagString: Player
@@ -12750,8 +13011,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03111741, y: -0.052911878}
-  m_Size: {x: 0.58294505, y: 0.87425995}
+  m_Offset: {x: -0.03111741, y: 0.008200586}
+  m_Size: {x: 0.58294505, y: 0.752035}
   m_Direction: 0
 --- !u!50 &952645092
 Rigidbody2D:
@@ -12769,7 +13030,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 4
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 61baa39e099dedd4bb89599437471339, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -12786,6 +13047,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ce14121848b824cae49df4be0f6970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &952645094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952645085}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 01438a980864bc44d95d7d75415982f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &976004528
 GameObject:
   m_ObjectHideFlags: 0
@@ -12796,6 +13076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976004529}
   - component: {fileID: 976004530}
+  - component: {fileID: 976004531}
   m_Layer: 0
   m_Name: WaterReflectSmall_0 (3)
   m_TagString: Untagged
@@ -12868,6 +13149,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &976004531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976004528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -1898659343009958212, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -8843944345914528079, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -3808486951342339979, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -5088061633143109107, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
 --- !u!1 &997823981
 GameObject:
   m_ObjectHideFlags: 0
@@ -12959,6 +13259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1012213531}
   - component: {fileID: 1012213532}
+  - component: {fileID: 1012213533}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_3 (3)
   m_TagString: Untagged
@@ -13031,6 +13332,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1012213533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012213530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: 8683632313750085214, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 262518517033693272, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 762285979657935423, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1400697303485121525, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &1063768606
 GameObject:
   m_ObjectHideFlags: 0
@@ -15573,6 +15893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127653136}
   - component: {fileID: 1127653137}
+  - component: {fileID: 1127653138}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_8 (1)
   m_TagString: Untagged
@@ -15645,6 +15966,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1127653138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127653135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: -6024505487453159095, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 3531074664856275464, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 802857254159732353, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1278475588773109743, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &1145046129
 GameObject:
   m_ObjectHideFlags: 0
@@ -15659,6 +15999,7 @@ GameObject:
   - component: {fileID: 1145046132}
   - component: {fileID: 1145046131}
   - component: {fileID: 1145046130}
+  - component: {fileID: 1145046136}
   m_Layer: 0
   m_Name: Golden_coin (1)
   m_TagString: Untagged
@@ -15812,6 +16153,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145046136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145046129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 8
+  _loop: 1
+  _sprites:
+  - {fileID: 6582046967323461550, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 1942777921290549423, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 8793606821965667882, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 3444832735345940322, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
 --- !u!1 &1186854100
 GameObject:
   m_ObjectHideFlags: 0
@@ -16064,6 +16424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318201666}
   - component: {fileID: 1318201667}
+  - component: {fileID: 1318201668}
   m_Layer: 0
   m_Name: WaterReflectLarge_0 (1)
   m_TagString: Untagged
@@ -16136,6 +16497,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1318201668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318201665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -6018279857378552221, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -6505298659582443948, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -7718236803453008505, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -2749089684739404911, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
 --- !u!1 &1396997903
 GameObject:
   m_ObjectHideFlags: 0
@@ -16146,6 +16526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1396997904}
   - component: {fileID: 1396997905}
+  - component: {fileID: 1396997906}
   m_Layer: 0
   m_Name: WaterReflectLarge_0 (3)
   m_TagString: Untagged
@@ -16218,6 +16599,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1396997906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396997903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -6018279857378552221, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -6505298659582443948, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -7718236803453008505, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
+  - {fileID: -2749089684739404911, guid: 5c257f9267e75d04e9a2db9ce1054d2d, type: 3}
 --- !u!1 &1398347365
 GameObject:
   m_ObjectHideFlags: 3
@@ -16820,6 +17220,7 @@ GameObject:
   - component: {fileID: 1631650006}
   - component: {fileID: 1631650005}
   - component: {fileID: 1631650004}
+  - component: {fileID: 1631650008}
   m_Layer: 0
   m_Name: Golden_coin
   m_TagString: Untagged
@@ -16973,6 +17374,25 @@ CircleCollider2D:
   m_Offset: {x: 0.011960983, y: 0.013669252}
   serializedVersion: 2
   m_Radius: 0.17310977
+--- !u!114 &1631650008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631650001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 8
+  _loop: 1
+  _sprites:
+  - {fileID: 6582046967323461550, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 1942777921290549423, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 8793606821965667882, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 3444832735345940322, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
 --- !u!1 &1707707574
 GameObject:
   m_ObjectHideFlags: 0
@@ -17162,6 +17582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1772182435}
   - component: {fileID: 1772182434}
+  - component: {fileID: 1772182436}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_3
   m_TagString: Untagged
@@ -17234,6 +17655,25 @@ Transform:
   m_Father: {fileID: 517808523}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772182436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772182433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: 8683632313750085214, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 262518517033693272, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 762285979657935423, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1400697303485121525, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &1789520372
 GameObject:
   m_ObjectHideFlags: 0
@@ -17280,6 +17720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1833732926}
   - component: {fileID: 1833732927}
+  - component: {fileID: 1833732928}
   m_Layer: 0
   m_Name: WaterReflectSmall_0 (1)
   m_TagString: Untagged
@@ -17352,6 +17793,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1833732928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833732925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 10
+  _loop: 1
+  _sprites:
+  - {fileID: -1898659343009958212, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -8843944345914528079, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -3808486951342339979, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
+  - {fileID: -5088061633143109107, guid: a30bc11df0b6e074aab27991cfe653fd, type: 3}
 --- !u!1 &1844551155
 GameObject:
   m_ObjectHideFlags: 0
@@ -20516,6 +20976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2015194587}
   - component: {fileID: 2015194588}
+  - component: {fileID: 2015194589}
   m_Layer: 0
   m_Name: PalmTreeBackgroundSheet_3 (2)
   m_TagString: Untagged
@@ -20588,6 +21049,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2015194589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015194586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 6
+  _loop: 1
+  _sprites:
+  - {fileID: 8683632313750085214, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 262518517033693272, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 762285979657935423, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
+  - {fileID: 1400697303485121525, guid: 8c75f80e799ce044fbfb16370e969eab, type: 3}
 --- !u!1 &2074082265
 GameObject:
   m_ObjectHideFlags: 0
@@ -20602,6 +21082,7 @@ GameObject:
   - component: {fileID: 2074082267}
   - component: {fileID: 2074082266}
   - component: {fileID: 2074082271}
+  - component: {fileID: 2074082272}
   m_Layer: 0
   m_Name: Silver_coin
   m_TagString: Untagged
@@ -20755,6 +21236,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _objectToScore: {fileID: 2074082265}
   _score: 1
+--- !u!114 &2074082272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074082265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706eb363e238baa49ad8d9ee663d288a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frameRate: 8
+  _loop: 1
+  _sprites:
+  - {fileID: -2322180950842035098, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -4893972260818282012, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: -6323751108524238166, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
+  - {fileID: 2722280177590742205, guid: 70e3b2bdb3aa44f4198d127bde5cfde1, type: 3}
 --- !u!1 &2102476885
 GameObject:
   m_ObjectHideFlags: 0
