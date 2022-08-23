@@ -8,7 +8,7 @@ namespace PixelCrew.Components
         public static int scoreValue;
         private int frames = 0;
 
-        void Update()
+        public void Score()
         {
            {
              Debug.Log("Coins:" + coinValue);

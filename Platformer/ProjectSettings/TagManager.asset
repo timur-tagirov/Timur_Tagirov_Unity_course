@@ -15,7 +15,7 @@ TagManager:
   - 
   - Ground
   - Grid
-  - 
+  - Interactables
   - 
   - 
   - 
@@ -53,8 +53,23 @@ TagManager:
   - name: Layer_3
     uniqueID: 3069974223
     locked: 0
+  - name: Tilemap_indoor
+    uniqueID: 966588265
+    locked: 0
+  - name: Helm
+    uniqueID: 1232723441
+    locked: 0
+  - name: Teleport
+    uniqueID: 4036807651
+    locked: 0
+  - name: Potion
+    uniqueID: 3238377489
+    locked: 0
   - name: Hero
     uniqueID: 2044108543
+    locked: 0
+  - name: Door
+    uniqueID: 2712297043
     locked: 0
   - name: Tilemap_ground
     uniqueID: 1465527423
