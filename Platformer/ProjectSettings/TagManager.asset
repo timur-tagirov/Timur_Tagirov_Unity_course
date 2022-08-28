@@ -68,6 +68,9 @@ TagManager:
   - name: Hero
     uniqueID: 2044108543
     locked: 0
+  - name: Particles
+    uniqueID: 955907229
+    locked: 0
   - name: Door
     uniqueID: 2712297043
     locked: 0
@@ -76,6 +79,9 @@ TagManager:
     locked: 0
   - name: Tilemap_grass
     uniqueID: 2097083617
+    locked: 0
+  - name: Wind
+    uniqueID: 2334362857
     locked: 0
   - name: Grid
     uniqueID: 757728625
